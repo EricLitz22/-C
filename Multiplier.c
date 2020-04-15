@@ -3,14 +3,19 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main() {
+int main() 
+{
+
 	int num,result,i;
 	result=1;
+	
 	scanf("%d",&num);
-	for(num = num;num==1;num = num-1){
-			result= result*num;
-			printf("%d",result);
-		}
+	
+	for(num = num;num==1;num = num-1)
+	{
+		result= result*num;
+		printf("%d\n",result);
+	}
 	
 	return 0;
 }
